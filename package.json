@@ -1,0 +1,16 @@
+{
+  "name": "finpay-static",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build:css": "tailwindcss -i ./tailwind.css -o ./style.css",
+    "watch:css": "tailwindcss -i ./tailwind.css -o ./style.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.18",
+    "tailwindcss": "^4.1.18"
+  }
+}
+
+
