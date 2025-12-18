@@ -1208,9 +1208,9 @@ video {
   line-height: 1.25;
 }
 
-.text-gray-400 {
+.text-black {
   --tw-text-opacity: 1;
-  color: rgb(156 163 175 / var(--tw-text-opacity, 1));
+  color: rgb(0 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-gray-500 {
@@ -1773,6 +1773,10 @@ body {
 
   .xl\:w-auto {
     width: auto;
+  }
+
+  .xl\:min-w-\[500px\] {
+    min-width: 500px;
   }
 
   .xl\:grid-cols-2 {
